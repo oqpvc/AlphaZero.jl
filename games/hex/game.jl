@@ -2,7 +2,7 @@ import AlphaZero.GI
 using StaticArrays
 using Crayons
 
-const BOARD_SIZE = 5
+const BOARD_SIZE = 11
 const Player = UInt8
 # Player 1
 const WHITE = 0x01
