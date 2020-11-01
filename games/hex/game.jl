@@ -234,7 +234,7 @@ function GI.action_string(::Type{Game}, action)
 end
 
 function GI.parse_action(g::Game, str)
-    if str == "S"
+    if str == "S" || str == "s"
         return (-1, -1)
     end
 
